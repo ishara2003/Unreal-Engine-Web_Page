@@ -31,7 +31,7 @@
     position: relative;
     width: 30vw;
     height: 70vh;
-    border-radius: 50%;
+    border-radius: 100%;
     /*border: 2px solid #e50404;*/
     background-image: url("/assets/Images/fotor-ai-20230724235553_1.jpg"); /* Replace "example.jpg" with the path to your image */
     background-size: cover;
@@ -132,7 +132,7 @@
 .link_img:hover{
     width: 7vw;
     height: 14vh;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 
 }
 #git_hub{
