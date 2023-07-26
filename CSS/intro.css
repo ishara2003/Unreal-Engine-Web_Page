@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
+
+#intro{
+    position: relative;
+    display: flex;
+    width: 99%;
+    height: 100%;
+    /*border: 2px solid #b700ff;*/
+}
+#nav_bar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 99%;
+    height: 12vh;
+    border: 2px solid white;
+}
+#navigations_bar{
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    border: 2px solid white;
+}
+
+#image{
+    position: relative;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 50%;
+    /*border: 2px solid #e50404;*/
+    background-image: url("/assets/Images/fotor-ai-20230724235553_1.jpg"); /* Replace "example.jpg" with the path to your image */
+    background-size: cover;
+    background-position: center left;
+
+}
+
+#my_details{
+
+    width: 35vw;
+    height: 70vh;
+    /*border: 2px solid #04e544;*/
+    color: floralwhite;
+}
+#my_details>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
+
+#my_details>p>span{
+    color: #00fcfc;
+    font-size: 1.7rem;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+#about_me{
+    color: #ffffff;
+    width: 35vw;
+    height: 70vh;
+    /*border: 2px solid #ad04e5;*/
+}
+#first_p{
+    position: relative;
+    bottom: 35px;
+    margin: auto;
+    width: 30vw;
+    height: 100%;
+    /*border: 2px solid white;*/
+}
+
+#first_p>p{
+    color: #00fcfc;
+    font-size: 1.8rem;
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+#about_me>h2   {
+    position: relative;
+    bottom: 1vh;
+    text-align: center;
+    font-size: 2rem;
+    color: gray;
+    border-bottom:2px solid gray;
+
+}
+#sosial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 14vh;
+    border: 2px solid white;
+}
+
+.nav_items{
+    /*border: 2px solid blue;*/
+    border-bottom:2px solid greenyellow;
+    margin-right: 10vw;
+    color: #d70d0d;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.nav_items1{
+     border-bottom:2px solid greenyellow;
+     font-size: 1.5rem;
+     cursor: pointer;
+     margin-right: 5vw;
+     color: #f60808;
+}
+
+.link_img{
+    cursor: pointer;
+    width: 4vw;
+    height: 8vh;
+    margin-right: 7vw;
+    border-radius: 12rem;
+    /*border: 2px solid red;*/
+    transition-duration: 1.5s;
+
+}
+.link_img:hover{
+    width: 7vw;
+    height: 14vh;
+    border: 2px solid red;
+
+}
+#git_hub{
+    background-image: url("/assets/Images/icons8-github-150.png"); /* Replace "example.jpg" with the path to your image */
+    background-size: cover;
+    background-position: center center;
+}
+#linkedin{
+    background-image: url("/assets/Images/icons8-linkedin-250.png"); /* Replace "example.jpg" with the path to your image */
+    background-size: cover;
+    background-position: center center;
+
+}
+#youtube{
+    background-image: url("/assets/Images/icons8-youtube-250.png"); /* Replace "example.jpg" with the path to your image */
+    background-size: cover;
+    background-position: center center;
+
+}
+#instagram{
+
+    background-image: url("/assets/Images/icons8-instagram-250.png"); /* Replace "example.jpg" with the path to your image */
+    background-size: cover;
+    background-position: center center;
+}
+#email{
+
+    background-image: url("/assets/Images/icons8-email-100.png"); /* Replace "example.jpg" with the path to your image */
+    background-size: contain;
+    background-position: center center;
+}
