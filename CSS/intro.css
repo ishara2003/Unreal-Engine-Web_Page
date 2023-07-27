@@ -33,7 +33,7 @@
     height: 70vh;
     border-radius: 100%;
     /*border: 2px solid #e50404;*/
-    background-image: url("/assets/Images/fotor-ai-20230724235553_1.jpg"); /* Replace "example.jpg" with the path to your image */
+    background-image: url("assets/Images/fotor-ai-20230724235553_1.jpg"); /* Replace "example.jpg" with the path to your image */
     background-size: cover;
     background-position: center left;
 
@@ -136,31 +136,31 @@
 
 }
 #git_hub{
-    background-image: url("/assets/Images/icons8-github-150.png"); /* Replace "example.jpg" with the path to your image */
+    background-image: url("assets/Images/icons8-github-150.png"); /* Replace "example.jpg" with the path to your image */
     background-size: cover;
     background-position: center center;
 }
 #linkedin{
-    background-image: url("/assets/Images/icons8-linkedin-250.png"); /* Replace "example.jpg" with the path to your image */
+    background-image: url("assets/Images/icons8-linkedin-250.png"); /* Replace "example.jpg" with the path to your image */
     background-size: cover;
     background-position: center center;
 
 }
 #youtube{
-    background-image: url("/assets/Images/icons8-youtube-250.png"); /* Replace "example.jpg" with the path to your image */
+    background-image: url("assets/Images/icons8-youtube-250.png"); /* Replace "example.jpg" with the path to your image */
     background-size: cover;
     background-position: center center;
 
 }
 #instagram{
 
-    background-image: url("/assets/Images/icons8-instagram-250.png"); /* Replace "example.jpg" with the path to your image */
+    background-image: url("assets/Images/icons8-instagram-250.png"); /* Replace "example.jpg" with the path to your image */
     background-size: cover;
     background-position: center center;
 }
 #email{
 
-    background-image: url("/assets/Images/icons8-email-100.png"); /* Replace "example.jpg" with the path to your image */
+    background-image: url("assets/Images/icons8-email-100.png"); /* Replace "example.jpg" with the path to your image */
     background-size: contain;
     background-position: center center;
 }
